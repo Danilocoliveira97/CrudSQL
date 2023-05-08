@@ -1,2 +1,2 @@
 # CrudSql
- Fazendo CRUD em SQL usando Python
+ Fazendo CRUD em MYSQL usando Python
