@@ -31,8 +31,8 @@ conexao.commit()#edita banco de dados
 cursor.close()
 conexao.close()'''
 #Delete
-'''comando_update = f'DELETE FROM cadastros where nome="Danilo"'
-cursor.execute(comando_update)
+'''comando_delete = f'DELETE FROM cadastros where nome="Danilo"'
+cursor.execute(comando_delete)
 conexao.commit()#edita banco de dados
 cursor.close()
 conexao.close()'''
