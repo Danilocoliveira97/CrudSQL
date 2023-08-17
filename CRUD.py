@@ -1,10 +1,10 @@
 import pyodbc
-#passamos todos os parametros para conexão com banco de dados, no meu caso está no https://app.planetscale.com/danilocamargodeoliveira97/banco_dadospython
+#passamos todos os parametros para conexão com banco de dados
 driver = "MySQL ODBC 8.0 ANSI Driver"
 server = "aws.connect.psdb.cloud"
-database = "banco_dadospython"
-username = "i3uxxaay8qz0ymraoi01"
-password = "pscale_pw_3lFm8NvAY2RFvJOjsq7egpSQfVrX8COlsfqW7APxU2"
+database = "NOME DO SEU BANCO"
+username = "USUARIO"
+password = "SENHA"
 string_conexao = f"DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}"
 conexao = pyodbc.connect(string_conexao)
 
